@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section id="home">
+  <header>
+    <nav>
+      <div class="logo">Port<span id="logo-1">Folio</span></div>
+      <div class="hamburger" onclick="toggleMenu()">
+        &#9776;
+      </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+  </header>
+  <div>
+      <div class="mainSection">
+          <h1 class="text-focus-in">Hi, I'm <span>M.Lakshmi Surendra</span></h1><br>
+          <p class="text-focus-in">I build modern and responsive websites.</p>
+          <a href="#projects" class="btn scale-up-center">View My Work</a>
+          <a href="#contact" class="btn btn-alt  scale-up-center">Hire Me</a>
+      </div>
+  </div>
+</section>
+  <hr>
+  <section id="projects">
+    <h2>My Projects</h2>
+    <p>Here are some of the projects I've worked on.</p>
+
+    <div class="projects-container">
+        <div class="project-card slide-right">
+            <img class="projectLogo" src="images/search.png" alt="Project 1">
+            <h3>AI Powered URL Detection Using VirusTotal Integration</h3>
+            <p>AI Powered URL detection using VirusTotal which dectects the given url is safe or not.</p>
+            <a href="https://github.com/surendra21688/AI-POWERED-URL-DETECTION-" class="btn">Live Demo</a>
+            <a href="https://github.com/surendra21688/AI-POWERED-URL-DETECTION-" class="btn btn-alt">GitHub</a>
+        </div>
+
+        <div class="project-card  slide-left">
+            <img class="projectLogo" src="images/portfolio.png" alt="Project 2">
+            <h3>Personal Portfolio</h3>
+            <p>A portfolio website is a personal online platform that showcases your skills.</p>
+            <a href="https://vaikash7.github.io/ShadowFox/" class="btn">Live Demo</a>
+            <a href="https://github.com/Vaikash7/ShadowFox" class="btn btn-alt">GitHub</a>
+        </div>
+    </div>
+</section>
+<hr>
+<section id="skills">
+  <h2>Skills & Technologies</h2>
+  <div class="skills-container">
+      <div class="skill slide-right">
+          <img src="images/html-5.png" alt="HTML">
+          <p>HTML</p>
+      </div>
+      <div class="skill slide-right">
+          <img src="images/css-3.png" alt="CSS">
+          <p>CSS</p>
+      </div>
+      <div class="skill slide-left">
+          <img src="images/js.png" alt="JavaScript">
+          <p>JavaScript</p>
+      </div>
+      <div class="skill slide-left">
+          <img src="images/java.png" alt="Java">
+          <p>Java</p>
+      </div>
+  </div>
+</section>
+<hr>
+<section id="contact">
+  <h2>Get in Touch</h2>
+  <p>If you have any questions or want to work together, feel free to contact me.</p>
+  
+  <form action="#" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+  </form>
+
+  <div class="contact-info">
+  </div>
+</section>
+<hr>
+<section id="contact">
+  <h2>Contact Me</h2>
+  <p>Connect with me on social media or send me an email.</p>
+
+  <div class="contact-container">
+      <div class="contact-item slide-right">
+          <img src="images/github.png" alt="GitHub">
+          <p><a href="https://github.com/surendra21688" target="_blank">GitHub</a></p>
+      </div>
+      <div class="contact-item slide-right">
+          <img src="images/message.png" alt="LinkedIn">
+          <p><a href="https://www.linkedin.com/in/miriyala-lakshmi-surendra-9425ba2b9/" target="_blank">LinkedIn</a></p>
+      </div>
+      <div class="contact-item slide-left">
+          <img src="images/email.png" alt="Email">
+          <p><a href="mailto:miriyalalakshmisurendra@gmail.com">Email</a></p>
+      </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-container">
+      <p class="foot">© 2025 surendra. All Rights Reserved.</p>
+      <p class="foot">miriyalalakshmisurendra@gmail.com</p>
+      <div class="footer-links">
+          <a href="#main">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+      </div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
